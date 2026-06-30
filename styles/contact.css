@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    width: 90%;
 }
 
 .contact-info h2{
@@ -82,13 +83,15 @@ fieldset{
     gap: 1rem;
     font-size: 1.2rem;
     border: none;
+    width: 70%;
 }
 
 legend{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: 600;
     text-align: center;
+    align-self: center;
 }
 
 legend span{
@@ -98,24 +101,27 @@ legend span{
 label{
     font-size: 1.5rem;
     cursor: pointer;
+    width: 90%;
 }
 
 .fields{
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
     gap: 1rem;
+    font-size: 0.5rem;
 }
 
 .fields div{
     display: grid;
     gap: 1rem;
+    width: 90%;
 }
 
 input , textarea{
    background: var(--disabled);
    border: none;
    outline: none;
-   font-size: 1.4rem;
+   font-size: 1.25rem;
    padding: 0.7rem;
    border-radius: 5px;
    color: var(--white);
@@ -142,10 +148,16 @@ input::placeholder , textarea::placeholder{
     #contact.content.active{
     display: grid;
     grid-template-columns: 40% 60%;
-    gap: 5rem;
+    gap: 9rem;
     margin: 2rem 0;
     align-items: start;
 }
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+    }
 
     .contact-media{
     grid-template-columns: repeat(2 , 1fr);  
@@ -157,6 +169,19 @@ input::placeholder , textarea::placeholder{
 
     .fields div:last-child {
         grid-column: span 2;
+    }
+
+    form{
+    background: var(--disabled);
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    }
+
+    legend{
+        font-size: 3rem;
     }
 }
 
