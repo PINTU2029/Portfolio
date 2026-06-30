@@ -173,8 +173,8 @@ aboutTabs.forEach((tab) =>{
                },
                {
                  id: 13,
-                 name: "Material UI",
-                 icon: "assets/skills/materialui.png",
+                 name: "C++",
+                 icon: "assets/skills/c++.png",
                },
             ];
 
