@@ -3,7 +3,7 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 3rem;
-    width: 90%;
+    width: 100%;
     max-width: 800px;
     margin: 2rem auto ;
 }
@@ -74,12 +74,13 @@
 }
 
 .details h3 {
-    font-size: 2rem;
+    font-size: 1.47rem;
     display: flex;
     align-items: center;
     gap: 10px;
     white-space: nowrap;
     overflow: hidden;
+    width: 100%;
 }
 
 .details h3 span {
