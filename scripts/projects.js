@@ -10,9 +10,21 @@ const projectList = [
       liveLink: "https://swiftcart-com.onrender.com/",
       githubLink : "https://github.com/PINTU2029/SwiftCart.git"
     },
+
     {
       id: 2,
   number: "02",
+  title: "CoverMatch — Insurance Management Platform",
+  description: "Developed a full-featured insurance management  portal using the MERN stack, streamlining policy handling, claims processing, and customer interactions , Integrated Redux Toolkit for scalable state management across 8+ insurance modules, reducing component re-renders by ~25% ,Designed a responsive, mobile-first interface serving 500+ daily active users with sub-2s page load times.",       
+  techStack: [ "MERN", "Redux Toolkit", "Bootstrap", "HTML/CSS"],
+      image: "#",
+      liveLink: "#",
+      githubLink : "#"
+    },  
+
+    {
+      id: 3,
+  number: "03",
   title: "SkyCast Weather Dashboard",
   description: "A weather application built with React and Material UI that provides real-time weather updates and a clean, responsive user interface.",
   techStack: ["React", "Material UI", "Weather API", "JavaScript"],
