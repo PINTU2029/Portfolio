@@ -1,8 +1,18 @@
 
 const projectList = [
+     {
+         id: 1,
+  number: "01",
+  title: "Saini Public School Management Ecosystem",
+  description: "tracking and real-time balance updates. Multi-Role Dashboards: Implemented strict Role-Based Access Control (RBAC) using FastAPI to provide dedicated, secure interfaces for Administrators, Teachers, Students, and Parents. Dynamic Faculty Management: Developed interactive directories featuring rigorous frontend and backend permission locks to restrict modification and deletion privileges exclusively to authorized Admins.  Seamless Communication: Engineered instantaneous application pipelines to synchronize school broadcasts, official notices, leave workflows, and academic timetables cross-platform. Localization Capability: Designed a lightweight React Context API translation matrix enabling instant, real-time user interface toggling between English and Hindi across all layouts.",
+  techStack: ["React Native", "Expo", "TypeScript", "FastAPI", "Razorpay"],
+      image: "assets/projects/saini-school.png",
+      liveLink: "https://saini-school.onrender.com/",
+      githubLink : "#"
+    },
     {
-      id: 1,
-      number: "01",
+      id: 2,
+      number: "02",
       title: "SwiftCart E-commers Website",
       description: "A high-performance, full-stack e-commerce solution engineered to provide a seamless digital shopping experience. The application features a robust backend architecture built with Node.js and Express, ensuring secure data handling and efficient API communication. It incorporates advanced state management in React for fluid UI interactions, a secure authentication layer using JWT, and a scalable database schema in MongoDB to manage complex product catalogs and user orders efficiently.",
       techStack : ["mongoDB" , "Express", "React" , "Node" , "JWT"],
@@ -11,16 +21,7 @@ const projectList = [
       githubLink : "https://github.com/PINTU2029/SwiftCart.git"
     },
 
-    {
-      id: 2,
-  number: "02",
-  title: "CoverMatch — Insurance Management Platform",
-  description: "Developed a full-featured insurance management  portal using the MERN stack, streamlining policy handling, claims processing, and customer interactions , Integrated Redux Toolkit for scalable state management across 8+ insurance modules, reducing component re-renders by ~25% ,Designed a responsive, mobile-first interface serving 500+ daily active users with sub-2s page load times.",       
-  techStack: [ "MERN", "Redux Toolkit", "Bootstrap", "HTML/CSS"],
-      image: "#",
-      liveLink: "#",
-      githubLink : "#"
-    },  
+    
 
     {
       id: 3,
